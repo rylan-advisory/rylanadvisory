@@ -151,7 +151,7 @@ nav ul a:hover { color: var(--plum); }
 }
 
 .hero-eyebrow {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 500;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -219,7 +219,7 @@ nav ul a:hover { color: var(--plum); }
 
 .hero-stat-number {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 42px;
+  font-size: 56px;
   font-weight: 300;
   color: var(--plum-muted);
   line-height: 1;
@@ -227,7 +227,7 @@ nav ul a:hover { color: var(--plum); }
 }
 
 .hero-stat-label {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 1.5px;
   color: rgba(255,255,255,0.5);
@@ -329,7 +329,7 @@ section { padding: 100px 60px; }
 }
 
 .offering-list li {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   color: var(--text-mid);
   padding-left: 16px;
@@ -391,14 +391,14 @@ section { padding: 100px 60px; }
 }
 
 .credential-title {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--navy);
   margin-bottom: 4px;
 }
 
 .credential-detail {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-light);
 }
 
@@ -431,7 +431,7 @@ section { padding: 100px 60px; }
 
 .why-item-title {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   color: white;
   margin-bottom: 12px;
@@ -439,7 +439,7 @@ section { padding: 100px 60px; }
 }
 
 .why-item-text {
-  font-size: 15px;
+  font-size: 17px;
   color: rgba(255,255,255,0.55);
   line-height: 1.85;
 }
