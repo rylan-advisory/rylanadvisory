@@ -26,7 +26,7 @@ body {
   background: var(--warm-white);
   color: var(--text-dark);
   font-weight: 300;
-  line-height: 1.7;
+  line-height: 1.8;
   overflow-x: hidden;
 }
 
@@ -174,7 +174,7 @@ nav ul a:hover { color: var(--plum); }
 }
 
 .hero-subhead {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 300;
   color: rgba(255,255,255,0.65);
   line-height: 1.8;
@@ -258,7 +258,7 @@ section { padding: 100px 60px; }
 }
 
 .section-intro {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-mid);
   max-width: 580px;
   line-height: 1.9;
@@ -312,7 +312,7 @@ section { padding: 100px 60px; }
 }
 
 .offering-desc {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-mid);
   line-height: 1.85;
   font-style: italic;
@@ -329,7 +329,7 @@ section { padding: 100px 60px; }
 }
 
 .offering-list li {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--text-mid);
   padding-left: 16px;
@@ -346,11 +346,6 @@ section { padding: 100px 60px; }
   background: var(--plum);
 }
 
-.offering-list li em {
-  font-style: italic;
-  color: var(--plum);
-}
-
 /* ABOUT */
 .about { background: white; }
 
@@ -364,7 +359,7 @@ section { padding: 100px 60px; }
 }
 
 .about-body {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-mid);
   line-height: 1.95;
 }
@@ -396,14 +391,14 @@ section { padding: 100px 60px; }
 }
 
 .credential-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--navy);
   margin-bottom: 4px;
 }
 
 .credential-detail {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-light);
 }
 
@@ -444,7 +439,7 @@ section { padding: 100px 60px; }
 }
 
 .why-item-text {
-  font-size: 13px;
+  font-size: 15px;
   color: rgba(255,255,255,0.55);
   line-height: 1.85;
 }
@@ -459,7 +454,7 @@ section { padding: 100px 60px; }
 }
 
 .contact-sub {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-mid);
   max-width: 460px;
   line-height: 1.85;
@@ -537,4 +532,9 @@ footer {
   .about-inner { grid-template-columns: 1fr; gap: 50px; }
   .why-grid { grid-template-columns: 1fr; }
   footer { flex-direction: column; gap: 12px; text-align: center; }
+}
+
+.offering-list li em {
+  font-style: italic;
+  color: var(--plum);
 }
