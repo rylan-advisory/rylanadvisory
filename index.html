@@ -175,7 +175,7 @@
     <h2 class="section-title fade-up">Ready to explore<br/>what's possible?</h2>
     <p class="contact-sub fade-up">Whether you have a specific need or just want to have a conversation, I'd welcome the chance to connect.</p>
     <div class="contact-links fade-up">
-      <a href="/cdn-cgi/l/email-protection#83f0e2f1f6adf4e2e7e6c3e4eee2eaefade0ecee" class="contact-link primary"><span class="__cf_email__" data-cfemail="3f4c5e4d4a11485e5b5a7f58525e5653115c5052">[email&#160;protected]</span></a>
+      <a href="mailto:saru.wade@gmail.com" class="contact-link primary">saru.wade@gmail.com</a>
       <a href="https://www.linkedin.com/in/saru-wade" class="contact-link secondary" target="_blank">LinkedIn</a>
     </div>
   </div>
@@ -187,8 +187,17 @@
   <div class="footer-right">Lexington, MA &nbsp;&middot;&nbsp; rylanadvisory.com</div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+<script>
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        setTimeo
+        setTimeout(() => entry.target.classList.add('visible'), 80);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
